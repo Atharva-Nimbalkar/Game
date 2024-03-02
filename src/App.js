@@ -77,6 +77,15 @@ export default function App() {
       }
     // }
   }
+    /**
+     * The function `renderComponent` takes a choice as input and renders the corresponding component
+     * (Paper, Rock, or Scissor) based on the choice.
+     * @param choice - The `choice` parameter in the `renderComponent` function likely refers to an
+     * object that contains information about which component to render. This object may have a
+     * property named `component` that holds the actual component to be rendered, such as `Paper`,
+     * `Rock`, or `Scissor`.
+     * @returns A component based on the choice provided.
+     */
     function renderComponent(choice){
       const Component=choice.component ;//Paper,rock,scissor
       return <Component/>
